@@ -4,9 +4,9 @@ ENV PYTHONDONTWRITEBYTECODE 1
 
 ENV PYTHONUNBUFFERED 1
 
-RUN mkdir /app
+RUN mkdir /test
 
-WORKDIR /app
+WORKDIR /test
 
 COPY requirements.txt /app/
 
@@ -14,10 +14,10 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8000
 
-COPY . /app/
+COPY . /test/
 
-# RUN chmod 0644 /app/*
+RUN chmod 0644 /test/*
 
-# ENTRYPOINT ["/app/hotel_management/migrate.sh"]
+ENTRYPOINT ["/test/testing_dockers/migrate.sh"]
 
 CMD ["python", "manage.py", "runserver", "127.0.0.1:8000"]

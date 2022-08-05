@@ -1,36 +1,36 @@
-version: "3.9"
-services:
-  db:
-    image: postgres:14.2
-    container_name: 'postgres'
-    restart: always
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_DB: hotel_pro
-      POSTGRES_PASSWORD: root
-      POSTGRES_HOST: db
-    volumes:
-      - pgdata:/var/lib/posgresql/data
-    expose:
-      - "5432"
-    ports:
-      - "5432:5432"
-
-  django:
-    build: .
-    image: django
-    container_name: 'django'
-    expose:
-      - "8000"
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./django:/django
-    command: sh -c "python manage.py makemigrations && 
-             python manage.py migrate && 
-             python manage.py runserver 0.0.0.0:8000"
-    depends_on:
-      - db
-volumes:
-  pgdata:
-
+#version: "3.9"
+#services:
+#  db:
+#    image: postgres:14.2
+#    container_name: 'postgres'
+#    restart: always
+#    environment:
+#      POSTGRES_USER: postgres
+#      POSTGRES_DB: hotel_pro
+#      POSTGRES_PASSWORD: root
+#      POSTGRES_HOST: db
+#    volumes:
+#      - pgdata:/var/lib/posgresql/data
+#    expose:
+#      - "5432"
+#    ports:
+#      - "5432:5432"
+#
+#  django:
+#    build: .
+#    image: django
+#    container_name: 'django'
+#    expose:
+#      - "8000"
+#    ports:
+#      - "8000:8000"
+#    volumes:
+#      - ./django:/django
+#    command: sh -c "python manage.py makemigrations &&
+#             python manage.py migrate &&
+#             python manage.py runserver 0.0.0.0:8000"
+#    depends_on:
+#      - db
+#volumes:
+#  pgdata:
+#
