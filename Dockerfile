@@ -20,4 +20,4 @@ RUN chmod 0644 /test/*
 
 ENTRYPOINT ["/test/testing_dockers/migrate.sh"]
 
-CMD ["python", "manage.py", "runserver", "127.0.0.1:8000"]
+# CMD ["python", "manage.py", "runserver", "127.0.0.1:8000"]
