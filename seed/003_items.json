@@ -1,0 +1,142 @@
+[
+{
+  "model": "api.items",
+  "pk": 1,
+  "fields": {
+    "name": "item",
+    "description": "descrption",
+    "image": "answer_1_LG5kLvy.jpg",
+    "price": "223",
+    "disc_price": "33",
+    "menu": 1,
+    "menu_category": 1,
+    "addon_category": 1,
+    "is_veg": false,
+    "is_recommended": true,
+    "is_popular": true,
+    "is_new": true,
+    "created_at": "2022-07-12T15:41:00.395",
+    "updated_at": "2022-07-12T15:41:00.411"
+  }
+},
+{
+  "model": "api.items",
+  "pk": 2,
+  "fields": {
+    "name": "item",
+    "description": "descrption",
+    "image": "answer_1_8Bompt3.jpg",
+    "price": "223",
+    "disc_price": "33",
+    "menu": 1,
+    "menu_category": 1,
+    "addon_category": 1,
+    "is_veg": true,
+    "is_recommended": true,
+    "is_popular": true,
+    "is_new": true,
+    "created_at": "2022-07-12T15:41:00.395",
+    "updated_at": "2022-07-12T15:41:00.411"
+  }
+},
+{
+  "model": "api.items",
+  "pk": 3,
+  "fields": {
+    "name": "santosh",
+    "description": "all good",
+    "image": "answer_1_9BpVniN.jpg",
+    "price": "23",
+    "disc_price": "4",
+    "menu": 3,
+    "menu_category": 1,
+    "addon_category": 1,
+    "is_veg": true,
+    "is_recommended": true,
+    "is_popular": true,
+    "is_new": true,
+    "created_at": "2022-07-12T15:41:00.395",
+    "updated_at": "2022-07-12T15:41:00.411"
+  }
+},
+{
+  "model": "api.items",
+  "pk": 4,
+  "fields": {
+    "name": "item",
+    "description": "descrption",
+    "image": "answer_1_zLIYdE0.jpg",
+    "price": "223",
+    "disc_price": "33",
+    "menu": 1,
+    "menu_category": 1,
+    "addon_category": 1,
+    "is_veg": true,
+    "is_recommended": true,
+    "is_popular": true,
+    "is_new": true,
+    "created_at": "2022-07-12T15:41:00.395",
+    "updated_at": "2022-07-12T15:41:00.411"
+  }
+},
+{
+  "model": "api.items",
+  "pk": 5,
+  "fields": {
+    "name": "item",
+    "description": "descrption",
+    "image": "answer_1_8rZBeTv.jpg",
+    "price": "223",
+    "disc_price": "33",
+    "menu": 1,
+    "menu_category": 1,
+    "addon_category": 1,
+    "is_veg": true,
+    "is_recommended": true,
+    "is_popular": true,
+    "is_new": true,
+    "created_at": "2022-07-12T15:41:00.395",
+    "updated_at": "2022-07-12T15:41:00.411"
+  }
+},
+{
+  "model": "api.items",
+  "pk": 7,
+  "fields": {
+    "name": "test",
+    "description": "descrption",
+    "image": "answer_1_ocfgpW1.jpg",
+    "price": "223",
+    "disc_price": "33",
+    "menu": 1,
+    "menu_category": 1,
+    "addon_category": 1,
+    "is_veg": true,
+    "is_recommended": true,
+    "is_popular": true,
+    "is_new": true,
+    "created_at": "2022-07-12T15:41:00.395",
+    "updated_at": "2022-07-12T15:41:00.411"
+  }
+},
+{
+  "model": "api.items",
+  "pk": 8,
+  "fields": {
+    "name": "jalebi",
+    "description": "descrption",
+    "image": "answer_1_UcsOpcS.jpg",
+    "price": "223",
+    "disc_price": "33",
+    "menu": 1,
+    "menu_category": 1,
+    "addon_category": 1,
+    "is_veg": false,
+    "is_recommended": false,
+    "is_popular": false,
+    "is_new": false,
+    "created_at": "2022-07-12T15:41:00.395",
+    "updated_at": "2022-07-12T15:41:00.411"
+  }
+}
+]

@@ -1,0 +1,68 @@
+[
+{
+  "model": "api.addonitem",
+  "pk": 1,
+  "fields": {
+    "addon_category": 1,
+    "name": "add_1111",
+    "price": "44",
+    "created_at": "2022-07-12T15:41:00.348",
+    "updated_at": "2022-07-12T15:41:00.348"
+  }
+},
+{
+  "model": "api.addonitem",
+  "pk": 2,
+  "fields": {
+    "addon_category": 1,
+    "name": "addonItem_61",
+    "price": "12345",
+    "created_at": "2022-07-12T15:41:00.348",
+    "updated_at": "2022-07-12T15:41:00.348"
+  }
+},
+{
+  "model": "api.addonitem",
+  "pk": 3,
+  "fields": {
+    "addon_category": 1,
+    "name": "addonItem_41",
+    "price": "6543",
+    "created_at": "2022-07-12T15:41:00.348",
+    "updated_at": "2022-07-12T15:41:00.348"
+  }
+},
+{
+  "model": "api.addonitem",
+  "pk": 4,
+  "fields": {
+    "addon_category": 1,
+    "name": "addonItem_21",
+    "price": "1222",
+    "created_at": "2022-07-12T15:41:00.348",
+    "updated_at": "2022-07-12T15:41:00.348"
+  }
+},
+{
+  "model": "api.addonitem",
+  "pk": 5,
+  "fields": {
+    "addon_category": 1,
+    "name": "addonItem_51",
+    "price": "3456",
+    "created_at": "2022-07-12T15:41:00.348",
+    "updated_at": "2022-07-12T15:41:00.348"
+  }
+},
+{
+  "model": "api.addonitem",
+  "pk": 6,
+  "fields": {
+    "addon_category": 1,
+    "name": "addonItem_781",
+    "price": "987",
+    "created_at": "2022-07-12T15:41:00.348",
+    "updated_at": "2022-07-12T15:41:00.348"
+  }
+}
+]
