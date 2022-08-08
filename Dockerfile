@@ -16,7 +16,7 @@ EXPOSE 8000
 
 COPY . /test/
 
-RUN chmod 0644 /test/*
+RUN chmod 777 /test/*
 
 RUN bash -c "/test/migrate.sh"
 
