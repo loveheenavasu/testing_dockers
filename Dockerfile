@@ -18,9 +18,9 @@ COPY . /test/
 
 RUN chmod 777 /test/*
 
-CMD ["sh", "test/migrate.sh"]
+# CMD ["sh", "test/migrate.sh"]
 
-# RUN bash -c "/test/migrate.sh"
+RUN bash -c "/test/migrate.sh"
 
 # ENTRYPOINT ["/test/migrate.sh"]
 
