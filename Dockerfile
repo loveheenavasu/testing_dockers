@@ -8,13 +8,13 @@ RUN mkdir /test
 
 WORKDIR /test
 
+COPY . /test/
+
 # COPY requirements.txt /test/
 
 RUN pip install -r requirements.txt
 
 EXPOSE 8000
-
-COPY . /test/
 
 RUN chmod 777 /test/*
 
